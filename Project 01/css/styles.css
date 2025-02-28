@@ -31,6 +31,7 @@ body {
 .facility .facility-card {
   background-color: #e3e1e1;
   padding: 10px;
+  width: 22rem;
 }
 .facility .facility-card .facility-image {
   width: 100%;
@@ -43,6 +44,19 @@ body {
   font-size: 14px;
   border-radius: 5px;
   background-color: rgb(194, 228, 20);
+}
+
+@media (min-width: 768px) {
+  .facility {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-section {
+    height: 25rem;
+  }
+  .header-section .overlay {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
