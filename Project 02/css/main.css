@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Travelling {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-size: 18px;
+  margin-top: 10px;
+}
+@media (min-width: 992px) {
+  .Travelling {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item {
+    display: flex;
+  }
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap {
+  padding: 10px;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image1 {
+  background-image: url("../images/image01.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image1 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image2 {
+  background-image: url("../images/image02.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image2 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image3 {
+  background-image: url("../images/image03.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image3 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image4 {
+  background-image: url("../images/image04.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image4 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image5 {
+  background-image: url("../images/image05.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image5 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image6 {
+  background-image: url("../images/image06.png");
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image6 .text .heading {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .icon-wrap {
+  padding: 15px;
+  background-color: rgb(242, 211, 10);
+}
+
+/*# sourceMappingURL=main.css.map */

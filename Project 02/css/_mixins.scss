@@ -1,0 +1,8 @@
+$desktop-width: 992px;
+
+// Media query mixins - Tablet Landscape - 992px to up
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

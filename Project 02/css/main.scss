@@ -1,0 +1,164 @@
+@import "./_mixins";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Travelling{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    margin-top: 10px;
+    @include desktop{
+        font-size: 30px;
+    }
+
+    .Travelling-wrap{
+        .Travelling-wrap-heading{
+
+        }
+        .Travelling-wrap-heading-wrap{
+
+        }
+    }
+
+    .Travelling-list{
+        .Travelling-list-wrap{
+            .Travelling-list-item{
+                @include desktop {
+                    display: flex;
+                  }
+                .Travelling-list-item-wrap{
+                    padding: 10px;
+                    .image-wrap{
+                        .image1 {
+                            background-image: url("../images/image01.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        .image2 {
+                            background-image: url("../images/image02.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        .image3 {
+                            background-image: url("../images/image03.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        .image4 {
+                            background-image: url("../images/image04.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        .image5 {
+                            background-image: url("../images/image05.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        .image6 {
+                            background-image: url("../images/image06.png");
+                            width: 100%;
+                            height: 280px;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            display: flex;
+                            justify-content: center;
+                            align-items: last baseline;
+
+                            .text{
+                                .heading{
+                                    color: white;
+                                    padding: 10px;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                        
+                    }
+                    .icon-wrap{
+                        padding: 15px;
+                        background-color: rgb(242, 211, 10);
+                    }
+                }
+            }
+        }
+    }
+}
