@@ -25,7 +25,7 @@
     }
 
     .Travelling-list{
-        padding: 5px;
+        padding: 10px;
         .Travelling-list-wrap{
             .Travelling-list-item{
                 @include desktop {
@@ -40,7 +40,7 @@
                     }
                     
                     @include desktop {
-                        width: calc(100% / 3 - 5px);
+                        width: calc(100% / 3 - 6px);
                     }
                     .image-wrap{
                         .image1 {

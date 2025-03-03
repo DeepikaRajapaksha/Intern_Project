@@ -23,7 +23,7 @@
   padding: 7px 7px;
 }
 .Travelling .Travelling-list {
-  padding: 5px;
+  padding: 10px;
 }
 @media (min-width: 992px) {
   .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item {
@@ -40,7 +40,7 @@
 }
 @media (min-width: 992px) {
   .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap {
-    width: calc(33.3333333333% - 5px);
+    width: calc(33.3333333333% - 6px);
   }
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image1 {
