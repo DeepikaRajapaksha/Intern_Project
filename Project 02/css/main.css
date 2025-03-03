@@ -15,26 +15,32 @@
     font-size: 30px;
   }
 }
+.Travelling .Travelling-wrap .Travelling-wrap-heading {
+  padding: 10px;
+}
 .Travelling .Travelling-wrap .Travelling-wrap-heading-wrap h1 span {
   background-color: rgb(242, 211, 10);
-  padding: 3px 6px;
+  padding: 7px 7px;
 }
 .Travelling .Travelling-list {
-  padding: 10px;
+  padding: 5px;
 }
 @media (min-width: 992px) {
   .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap {
-  position: relative;
   margin-bottom: 10px;
+}
+.Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap:last-child {
+  margin-bottom: 0;
 }
 @media (min-width: 992px) {
   .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap {
-    width: calc(33.3333333333% - 10px);
+    width: calc(33.3333333333% - 5px);
   }
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image1 {
@@ -48,6 +54,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image1 .overlay {
   position: absolute;
@@ -78,6 +85,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image2 .overlay {
   position: absolute;
@@ -108,6 +116,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image3 .overlay {
   position: absolute;
@@ -138,6 +147,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image4 .overlay {
   position: absolute;
@@ -168,6 +178,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image5 .overlay {
   position: absolute;
@@ -175,7 +186,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.118), rgba(0, 0, 0, 0.712));
   z-index: 1;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image5 .text {
@@ -198,6 +209,7 @@
   justify-content: center;
   align-items: last baseline;
   overflow: hidden;
+  position: relative;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image6 .overlay {
   position: absolute;
@@ -205,7 +217,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.118), rgba(0, 0, 0, 0.712));
   z-index: 1;
 }
 .Travelling .Travelling-list .Travelling-list-wrap .Travelling-list-item .Travelling-list-item-wrap .image-wrap .image6 .text {
@@ -221,7 +233,6 @@
   padding: 15px;
   background-color: rgb(242, 211, 10);
   position: relative;
-  z-index: 3;
 }
 
 /*# sourceMappingURL=main.css.map */
