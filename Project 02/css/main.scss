@@ -18,19 +18,27 @@
         .Travelling-wrap-heading{
 
         }
-        .Travelling-wrap-heading-wrap{
-
+        .Travelling-wrap-heading-wrap h1 span{
+            background-color: rgb(242, 211, 10);  
+            padding: 3px 6px;
         }
     }
 
     .Travelling-list{
+        padding: 10px;
         .Travelling-list-wrap{
             .Travelling-list-item{
                 @include desktop {
                     display: flex;
-                  }
+                    justify-content: space-between;
+                }
                 .Travelling-list-item-wrap{
-                    padding: 10px;
+                    position: relative;
+                    margin-bottom: 10px;
+                    
+                    @include desktop {
+                        width: calc(100% / 3 - 10px);
+                    }
                     .image-wrap{
                         .image1 {
                             background-image: url("../images/image01.png");
@@ -42,14 +50,28 @@
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative; 
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         .image2 {
                             background-image: url("../images/image02.png");
@@ -58,18 +80,31 @@
                             background-repeat: no-repeat;
                             background-size: cover;
                             background-position: center;
-                            background-repeat: no-repeat;
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative;
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         .image3 {
                             background-image: url("../images/image03.png");
@@ -78,18 +113,31 @@
                             background-repeat: no-repeat;
                             background-size: cover;
                             background-position: center;
-                            background-repeat: no-repeat;
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative; 
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         .image4 {
                             background-image: url("../images/image04.png");
@@ -98,18 +146,31 @@
                             background-repeat: no-repeat;
                             background-size: cover;
                             background-position: center;
-                            background-repeat: no-repeat;
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative; 
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         .image5 {
                             background-image: url("../images/image05.png");
@@ -118,18 +179,31 @@
                             background-repeat: no-repeat;
                             background-size: cover;
                             background-position: center;
-                            background-repeat: no-repeat;
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative; 
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         .image6 {
                             background-image: url("../images/image06.png");
@@ -138,25 +212,42 @@
                             background-repeat: no-repeat;
                             background-size: cover;
                             background-position: center;
-                            background-repeat: no-repeat;
                             display: flex;
                             justify-content: center;
                             align-items: last baseline;
+                            overflow: hidden;
+
+                            .overlay {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.712));
+                                z-index: 1;
+                            }
 
                             .text{
+                                position: relative; 
+                                z-index: 2;
                                 .heading{
                                     color: white;
                                     padding: 10px;
                                     font-size: 1.5rem;
                                 }
                             }
+                            
                         }
                         
+                        
                     }
-                    .icon-wrap{
-                        padding: 15px;
-                        background-color: rgb(242, 211, 10);
-                    }
+                    
+                }
+                .icon-wrap{
+                    padding: 15px;
+                    background-color: rgb(242, 211, 10);
+                    position: relative;
+                    z-index: 3; 
                 }
             }
         }
