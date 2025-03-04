@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("../images/images2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .Product-Card .Product-Card-wrap .Product-Card-Heading .Product-Card-Heading-wrap .heading {
-  color: rgb(54, 200, 61);
+  color: rgb(21, 159, 28);
   font-size: 25px;
   text-align: center;
   padding: 10px;
@@ -18,6 +26,35 @@
 .Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap {
   padding: 12px;
 }
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .Product-Card-item-wrap p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .Product-Card-item-wrap p::before {
+  font-weight: bold;
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-id::before {
+  content: "Product ID: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-title::before {
+  content: "Product Title: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-description::before {
+  content: "Product Description: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-category::before {
+  content: "Category: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-price::before {
+  content: "Price: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-stock::before {
+  content: "Stock: ";
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .product-description::after {
+  content: "\a";
+  white-space: pre;
+}
 @media (min-width: 992px) {
   .Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap {
     display: flex;
@@ -27,7 +64,7 @@
 }
 .Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .Product-Card-item {
   padding: 12px;
-  background-color: rgb(194, 255, 194);
+  background-color: rgb(67, 220, 67);
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -45,6 +82,10 @@
 .Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .Product-Card-item .Product-Card-item-wrap {
   color: rgb(10, 59, 17);
   font-size: 16px;
+}
+.Product-Card .Product-Card-wrap .Product-Card-list .Product-Card-list-wrap .Product-Card-item:hover {
+  background-color: rgb(50, 180, 50);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=main.css.map */
