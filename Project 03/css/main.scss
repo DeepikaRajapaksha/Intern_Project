@@ -72,6 +72,7 @@
                     content: "\A"; 
                     white-space: pre; 
                 }
+                
                 @include desktop {
                     display: flex;
                     flex-wrap: wrap;
